@@ -31,7 +31,6 @@ export default function Home() {
               { label: "Support", onClick: () => console.log('Support') },
             ]},
           ]}
-          onPrivacyClick={() => console.log('Privacy policy clicked')}
         />
       </div>
       <div id="hero" data-section="hero" className="scroll-mt-24">
@@ -86,7 +85,6 @@ export default function Home() {
               { label: "Support", onClick: () => console.log('Support') },
             ]},
           ]}
-          onPrivacyClick={() => console.log('Privacy policy clicked')}
         />
       </div>
     </SiteThemeProvider>
