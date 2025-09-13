@@ -31,7 +31,6 @@ export default function Home() {
               { label: "Support", onClick: () => console.log('Support') },
             ]},
           ]}
-          copyrightText="© 2023 NovaSuite. All rights reserved."
           onPrivacyClick={() => console.log('Privacy policy clicked')}
         />
       </div>
@@ -87,7 +86,6 @@ export default function Home() {
               { label: "Support", onClick: () => console.log('Support') },
             ]},
           ]}
-          copyrightText="© 2023 NovaSuite. All rights reserved."
           onPrivacyClick={() => console.log('Privacy policy clicked')}
         />
       </div>
